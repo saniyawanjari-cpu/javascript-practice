@@ -1,3 +1,6 @@
+//CONERSION//
+
+
 let score = "hitesh"//true //undefined //0//"33abc"//"33"
 //score =  33 if rehta toh hum  bolte its a number but " " isme likha isliye its a string 
 
@@ -27,10 +30,41 @@ let booleanIsLoggedIn =  Boolean(isLoggedIn)
 
 let someNumber = 33
 let stringNumber = String(someNumber);
-console.log(stringNumber);
-console.log(typeof stringNumber);
+// console.log(stringNumber);
+// console.log(typeof stringNumber);
 
 //dikhne me toh int hai par actually string hai 
+
+
+
+//OPERATIONS//
+let value = 5
+let negValue = -value
+console.log(negValue);
+
+console.log(2+2);
+console.log(2**3);
+//we can perform such operations 
+
+let str1 = "saniya"
+let str2 = " pranav "
+
+let str3= str1 + str2
+console.log(str3);
+
+console.log("1" + 2);//12
+console.log(1+"2");//12
+console.log(1+2+"2"); //32- if string last me hai toh pehle woh apna convserion kar lega 
+console.log("1"+ 2 +2);//122- agar string first hai toh he wil consider everyone as string 
+// use parenthesis instead of this  
+
+console.log(+true);
+console.log(+"");//dont use this type of messy code
+
+
+
+
+
 
 
 
